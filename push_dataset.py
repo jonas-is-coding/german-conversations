@@ -84,7 +84,7 @@ hf_dataset = DatasetDict({
 
 # Versuche, das Dataset auf Hugging Face hochzuladen
 try:
-    hf_dataset.push_to_hub("jonas-is-coding/mira")
+    hf_dataset.push_to_hub("jonas-is-coding/german-conversations")
     print("Dataset erfolgreich gepusht.")
 except Exception as e:
     print(f"Ein Fehler ist aufgetreten: {e}")
