@@ -8,15 +8,15 @@ This dataset is designed for training AI chat models and focuses on human-like c
 
 The dataset consists of multiple entries, each containing the following fields:
 
-	•	conversation_id: A unique identifier for the conversation (string). 🆔
-		•	speaker_a: A dictionary containing details about the first speaker, including:
-		•	body_language: Description of the speaker’s body language. 🕺
-		•	emotion: List of emotions exhibited by the speaker. 😐😟
-		•	intent: The primary intention behind the speaker’s message. 🎯
-		•	role: The role or identity of the speaker. 👤
-		•	subtext: Additional thoughts that underline the speaker’s intention. 💭
-		•	text: The actual dialogue spoken by the speaker. 🗣️
-	•	speaker_b: A similar dictionary containing details about the second speaker with the same fields as speaker_a.
+	• conversation_id: A unique identifier for the conversation (string). 🆔
+	• speaker_a: A dictionary containing details about the first speaker, including:
+		• **body_language**: Description of the speaker’s body language. 🕺
+		• emotion: List of emotions exhibited by the speaker. 😐😟
+		• intent: The primary intention behind the speaker’s message. 🎯
+		• role: The role or identity of the speaker. 👤
+		• subtext: Additional thoughts that underline the speaker’s intention. 💭
+		• text: The actual dialogue spoken by the speaker. 🗣️
+	• speaker_b: A similar dictionary containing details about the second speaker with the same fields as speaker_a.
 
 ### Example Entry
 
