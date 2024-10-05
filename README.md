@@ -23,26 +23,27 @@ The dataset consists of multiple entries, each containing the following fields:
 {
     "conversation": [
         {
-            "role": "Fahrkartenkontrolleur",
-            "text": "Guten Morgen! Könnten Sie mir bitte Ihr Ticket zeigen?",
-            "intent": "Fahrgast kontrollieren",
+            "body_language": "Legt den Kopf leicht schräg und beobachtet die Reaktion des Gegenübers",
             "emotion": [
-                "neutral",
-                "gestresst"
+                "neugierig",
+                "leicht besorgt"
             ],
-            "body_language": "hält seinen Stempelblock in der Hand, schaut den Fahrgast an",
-            "subtext": "Hoffentlich ist alles in Ordnung und ich muss keinen Streit anfangen."
+            "intent": "Informationen über das Festival einholen",
+            "role": "Polizist",
+            "subtext": "Ich bin gespannt, wie der junge Mann auf die Frage reagiert und ob er ähnliche Erfahrungen mit dem Festival gemacht hat. Ob es tatsächlich so wild war, wie mein Kollege berichtet hat, bezweifle ich.",
+            "text": "Ich hab' gehört, dass am Wochenende ein Festival in der Stadt war. Ich war selbst nicht da, aber ein Kollege erzählte mir, dass es ganz schön wild zuging. Hattest du auch was mitbekommen?"
         },
         {
-            "role": "Kundin",
-            "text": "Klar, hier bitte. Ich habe aber im Online-Shop vergessen, die Option für die digitale Fahrkarte auszuwählen.",
-            "intent": "sich entschuldigen",
+            "body_language": "Lebhafte Gestik, strahlende Augen, schnelle Bewegungen",
             "emotion": [
-                "frustriert",
-                "sorglich"
+                "euphorisch",
+                "begeistert",
+                "leicht ängstlich"
             ],
-            "body_language": "hält ihr Handy mit der geöffneten Ticket-App bereit, wirkt leicht verlegen",
-            "subtext": "Mist, jetzt habe ich bestimmt wieder einen Fehler gemacht. Hoffentlich ist die Kontrolle nicht allzu streng."
+            "intent": "Seine Begeisterung für das Festival teilen",
+            "role": "Zirkusartist",
+            "subtext": "Das war so eine coole Erfahrung, ich hatte so viel Spaß! Jetzt hab ich noch mehr Lust, meine eigene Zirkus-Produktion zu starten. Vielleicht sogar auf einem Festival wie                          dem! Das wäre echt der Wahnsinn!  Aber ich muss auch auf meine Gesundheit achten, ich will mir ja nicht nochmal den Arm brechen.",
+            "text": "Ach, du meinst das Summer Blast? Ja klar, da war ich! Es war echt der Hammer, die Stimmung war so euphorisch, die Musik hat durchgedröhnt und die Leute haben getanzt wie                          verrückt! Das Energielevel war unglaublich!  Ich musste natürlich auch mal kurz auf die Bühne, hab ein paar Jonglage-Tricks gezeigt. Die Leute waren begeistert! Die Musik                         war so inspirierend, ich hatte richtig Bock, noch mehr zu zeigen! Aber ich musste ja auch aufpassen, dass ich nicht zu sehr aus dem Häuschen gerate und mir nichts breche.                         Hab aber trotzdem ein paar coole Fotos für Social Media gemacht, die Leute müssen ja wissen, dass wir da waren!"
         }
     ]
 }
