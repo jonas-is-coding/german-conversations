@@ -19,7 +19,7 @@ The dataset consists of multiple entries, each containing the following fields:
 - **speaker_b**: A similar dictionary containing details about the second speaker with the same fields as speaker_a.
 
 ### Example Entry
-
+```json
 {
     "conversation": [
         {
@@ -46,14 +46,15 @@ The dataset consists of multiple entries, each containing the following fields:
         }
     ]
 }
+```
 
 ## Purpose
 
 This dataset can be utilized for:
 
-	•	Training and fine-tuning conversational AI models. 🛠️
-	•	Developing chatbots capable of understanding complex dialogues. 🤖
-	•	Analyzing human interactions for research in natural language understanding. 📊
+- Training and fine-tuning conversational AI models. 🛠️
+- Developing chatbots capable of understanding complex dialogues. 🤖
+- Analyzing human interactions for research in natural language understanding. 📊
 
 ## Data Generation
 
