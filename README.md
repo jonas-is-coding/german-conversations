@@ -21,31 +21,29 @@ The dataset consists of multiple entries, each containing the following fields:
 ### Example Entry
 ```json
 {
-    "conversation": [
-        {
-            "body_language": "Legt den Kopf leicht schräg und beobachtet die Reaktion des Gegenübers",
-            "emotion": [
-                "neugierig",
-                "leicht besorgt"
-            ],
-            "intent": "Informationen über das Festival einholen",
-            "role": "Polizist",
-            "subtext": "Ich bin gespannt, wie der junge Mann auf die Frage reagiert und ob er ähnliche Erfahrungen mit dem Festival gemacht hat. Ob es tatsächlich so wild war, wie mein Kollege berichtet hat, bezweifle ich.",
-            "text": "Ich hab' gehört, dass am Wochenende ein Festival in der Stadt war. Ich war selbst nicht da, aber ein Kollege erzählte mir, dass es ganz schön wild zuging. Hattest du auch was mitbekommen?"
-        },
-        {
-            "body_language": "Lebhafte Gestik, strahlende Augen, schnelle Bewegungen",
-            "emotion": [
-                "euphorisch",
-                "begeistert",
-                "leicht ängstlich"
-            ],
-            "intent": "Seine Begeisterung für das Festival teilen",
-            "role": "Zirkusartist",
-            "subtext": "Das war so eine coole Erfahrung, ich hatte so viel Spaß! Jetzt hab ich noch mehr Lust, meine eigene Zirkus-Produktion zu starten. Vielleicht sogar auf einem Festival wie dem! Das wäre echt der Wahnsinn!  Aber ich muss auch auf meine Gesundheit achten, ich will mir ja nicht nochmal den Arm brechen.",
-            "text": "Ach, du meinst das Summer Blast? Ja klar, da war ich! Es war echt der Hammer, die Stimmung war so euphorisch, die Musik hat durchgedröhnt und die Leute haben getanzt wie verrückt! Das Energielevel war unglaublich!  Ich musste natürlich auch mal kurz auf die Bühne, hab ein paar Jonglage-Tricks gezeigt. Die Leute waren begeistert! Die Musik war so inspirierend, ich hatte richtig Bock, noch mehr zu zeigen! Aber ich musste ja auch aufpassen, dass ich nicht zu sehr aus dem Häuschen gerate und mir nichts breche.  Hab aber trotzdem ein paar coole Fotos für Social Media gemacht, die Leute müssen ja wissen, dass wir da waren!"
-        }
-    ]
+    "conversation_id": "785b5461-7950-43b0-b9c2-28f2a69842dd",
+    "speaker_a": {
+        "body_language": "Schaut mit einem fragenden Blick und leicht gehobenen Augenbrauen auf den Fahrkartenkontrolleur",
+        "emotion": [
+            "neugierig",
+            "leicht besorgt"
+        ],
+        "intent": "Idee zum Projekt teilen und Feedback bekommen",
+        "role": "Student",
+        "subtext": "Ich hoffe, ich bin nicht zu doof, um so eine Idee jetzt noch vorzuschlagen. Ich hab aber auch keine Lust, mich dafür zu schämen, wenn es jetzt nicht mehr aktuell ist.",
+        "text": "Hey, ich hab letztens mein altes Schulprojekt über nachhaltige Energiegewinnung wiedergefunden. Weißt du, damals hatte ich so viel Zeit, mich da richtig reinzuknien. Jetzt fehlt mir leider die Zeit, aber vielleicht könnte man das ja updaten und für eine neue Vorlesung nutzen? Also, nicht das Projekt selbst, sondern die Idee. Könntest du dir vorstellen, dass man so etwas heute noch präsentieren würde? Oder ist das irgendwie out?"
+    },
+    "speaker_b": {
+        "body_language": "Lächelt freundlich, hält den Blickkontakt, hält einen Stempel in der Hand",
+        "emotion": [
+            "freundlich",
+            "leicht gelangweilt"
+        ],
+        "intent": "Studenten unterstützen und Interesse an der Idee zeigen",
+        "role": "Fahrkartenkontrolleur",
+        "subtext": "Ich hab so viele dieser Studenten jeden Tag.  Aber irgendwie faszinieren mich ihre Ideen manchmal. Vielleicht kann ich ja später auch nochmal etwas Neues lernen.",
+        "text": "Na klar, Energiegewinnung ist doch immer aktuell! Allerdings muss man vielleicht etwas moderner ran gehen. Was wäre denn deine Idee, um das Projekt aufzupeppen?"
+    }
 }
 ```
 
